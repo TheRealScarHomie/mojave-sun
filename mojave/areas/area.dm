@@ -60,7 +60,7 @@
 /area/ms13/ncr_main
 	name = "NCR Mainbase"
 	icon_state = "ncr_main"
-	requires_power = TRUE
+	requires_power = FALSE
 
 /area/ms13/raider_mall
 	name = "Raider Mall"
@@ -164,3 +164,42 @@
 	icon_state = "cave"
 	outdoors = TRUE
 
+/area/ms13/underground/sewer
+	name = "Sewers"
+	icon_state = "sewer"
+	outdoors = FALSE
+
+/area/ms13/underground/underground_town
+	name = "Lower Town"
+	icon_state = "underground_town"
+	outdoors = FALSE
+
+/area/ms13/underground/tunnel
+	name = "Tunnel"
+	outdoors = FALSE
+	icon_state = "tunnels"
+
+/area/ms13/underground/subway
+	name = "Subway"
+	outdoors = FALSE
+	icon_state = "subway"
+
+/area/ms13/underground/tunnel/maintenance
+	name = "Maintenance Passages"
+	icon_state = "maintenance"
+
+/area/ms13/underground/megabunker
+	name = "Major Pre-war bunker"
+	icon_state = "bunker"
+
+/area/ms13/underground/megabunker/upper
+	name = "Pre-War bunker entrance"
+	icon_state = "bunkerentrance"
+
+/area/ms13/supermarket
+	name = "Supermarket"
+	icon_state = "supermarket"
+
+/area/ms13/supermarket/basement
+	name = "Supermarket Basement"
+	icon_state = "supermarket_basement"
